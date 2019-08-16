@@ -4,15 +4,6 @@
 A multiple reverse shell sessions/clients manager via terminal
 ```
 **This project will not continue develope anymore.**  
-**The reborn project (Platypus) has been released at https://github.com/WangYihang/Platypus**  
-
-#### [**Platypus**](https://github.com/WangYihang/Platypus)
-  * More stable
-  * More features
-  * Upgrade common reverse shell session to full interactive seession
-  * Reverse shell as a Service
-  * RESTful API
-  * ...
 
 #### Attacker side
 ```
