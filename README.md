@@ -5,22 +5,44 @@
 ### 目录结构  
 ```shell
 .
-├── a.php
-├── awd.sh
-├── flag
-├── flag.txt
-├── log
+├── batch
+│   ├── api.php
+│   ├── awd.sh
+│   ├── phoenix.php
+│   ├── seg.log
+│   └── target.txt
+├── fuck
+│   ├── change_pass.sql
+│   ├── crontab.py
+│   ├── ddos_apache.sh
+│   ├── drop_db.py
+│   ├── fork_bomb.sh
+│   ├── kill_phoenix.sh
+│   ├── README.md
+│   └── reverse_shell.md
 ├── README.md
-├── seg.log
-└── target.txt
+└── re_shell
+    ├── log
+    │   └── README.md
+    ├── README.md
+    ├── Reverse-Shell-Manager.py
+    └── utils
+        ├── color.py
+        ├── color.pyc
+        ├── __init__.py
+        ├── __init__.pyc
+        ├── log.py
+        └── log.pyc
 ```
 
 ### 主要功能  
 
-主要支持php木马,支持批量拿flag,群控,命令控制,批量扫描,不死.
+攻击框架为awd.sh,主要支持php木马,支持批量拿flag,群控,命令控制,批量扫描,不死.
 
 使用方式如下:  
 ```shell
+>./awd.sh
+
     ____   __ __               ____   __
    / __ \ / // /  _____ _____ / __ \ / /_
   / /_/ // // /_ / ___// ___// / / // __/
