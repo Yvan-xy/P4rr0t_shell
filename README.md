@@ -4,58 +4,57 @@
 
 ### 目录结构  
 ```shell
-├── Attack
-│   ├── 不死马.php
-│   ├── 命令生成不死马_批量版.py
-│   ├── 命令生成不死马.txt
-│   ├── 隐藏不死马测试版.php
-│   ├── a.py
-│   ├── GetFlag.py
-│   ├── ListCreate.php
-│   ├── README.md
-│   ├── upload_shell.py
-│   └── webshell.txt
-├── attack_python
-│   ├── a.php
-│   ├── awd_attack.py
-│   ├── awd.sh
-│   ├── b.php
-│   ├── cmd.exe
-│   ├── flag.txt
-│   ├── Flag.txt
-│   ├── plugin
-│   │   ├── command.py
-│   │   ├── command.pyc
-│   │   ├── getflag.py
-│   │   ├── getflag.pyc
-│   │   ├── __init__.pyc
-│   │   ├── insert.py
-│   │   ├── insert.pyc
-│   │   ├── upload1 - 副本.py
-│   │   ├── upload1.py
-│   │   ├── upload1.pyc
-│   │   ├── upload - 副本.py
-│   │   ├── upload.py
-│   │   └── upload.pyc
-│   ├── shell1.php
-│   ├── shell.php
-│   ├── target.txt
-│   ├── tips.txt
-│   └── webshell.txt
-├── awd_sh
-│   ├── a.php
-│   ├── awd.sh  //核心shell,支持批量flag,群控,不死,段扫描
-│   ├── flag
-│   ├── flag.txt
-│   ├── log
-│   ├── seg.log
-│   └── target.txt
-├── Defense
-│   ├── 克制不死马.txt
-│   ├── 日志地址.txt
-│   ├── 修改curl.txt
-│   ├── linux文件监控脚本.py
-│   ├── waf.php
-│   └── Web日志安全分析工具+v2.0.rar
-└── README.md
+.
+├── a.php
+├── awd.sh
+├── flag
+├── flag.txt
+├── log
+├── README.md
+├── seg.log
+└── target.txt
 ```
+
+### 主要功能  
+
+主要支持php木马,支持批量拿flag,群控,命令控制,批量扫描,不死.
+
+使用方式如下:  
+```shell
+    ____   __ __               ____   __
+   / __ \ / // /  _____ _____ / __ \ / /_
+  / /_/ // // /_ / ___// ___// / / // __/
+ / ____//__  __// /   / /   / /_/ // /_
+/_/       /_/  /_/   /_/    \____/ \__/
+[+]1. CommandMode
+[+]2. ReadAllFlag
+[+]3. SegmentScan
+[+]4. Exit
+>1
+[+]Input Target url>
+127.0.0.1/.a.php
+www-data@/var/www/html>ls -al
+ls -al
+ls -alstring(521) "total 48
+drwxr-xr-x 5 root root  4096 Aug 16 14:43 .
+drwxr-xr-x 9 root root  4096 Aug 14 14:30 ..
+-rwxrwxrwx 1 root root   330 Aug 16 14:45 .a.php
+-rw-r--r-- 1 root root   107 Aug 15 00:00 .index.php
+-rw-r--r-- 1 root root   152 Aug 15 21:54 a.php
+drwxr-xr-x 3 root root  4096 Aug 16 16:45 awd
+drwxr-xr-x 2 root root  4096 Aug 14 14:30 blockchain
+-rw-r--r-- 1 root root 10480 Feb 22 14:19 index.apache.html
+-rw-r--r-- 1 root root   612 Oct 17  2018 index.nginx-debian.html
+drwxr-xr-x 2 root root  4096 Aug 14 14:30 shell
+"
+www-data@/var/www/html>
+```
+
+### 配置方式
+在target.txt中填写靶机的url地址,flag将输入到flag.txt中.  
+
+```plain
+http://127.0.0.1/.a.php
+http://192.168.100.22/.fuck.php
+```
+连接脚本的密码在awd.sh中进行修改.
