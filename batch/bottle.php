@@ -55,7 +55,6 @@ function waf() {
 function logging($var) {
     file_put_contents(LOG_FILENAME, "\r\n" . time() . "\r\n" . print_r($var, true) , FILE_APPEND);
     // die() or unset($_GET) or unset($_POST) or unset($_COOKIE);
-    
 }
 waf();
 ?>
