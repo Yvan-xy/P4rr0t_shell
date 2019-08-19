@@ -31,16 +31,13 @@ def crontab_flag_submit(flag_server, flag_port, flag_api, flag_token,
     return cmd
 
 
-#依情况修改接口
-cmd = crontab_flag_submit(flag_server='0.0.0.0',
-                          flag_port='8888',
-                          flag_api='submit',
-                          flag_token='bcbe3365e6ac95ea2c0343a2395834dd',
-                          flag_host='http://192.168.100.1/Getkey')
+#  cmd = crontab_flag_submit(flag_server='0.0.0.0',
+                          #  flag_port='8888',
+                          #  flag_api='submit',
+                          #  flag_token='bcbe3365e6ac95ea2c0343a2395834dd',
+                          #  flag_host='http://192.168.100.1/Getkey')
+#  print(cmd)
+
+cmd = crontab_reverse('202.204.62.222',6666)
 print(cmd)
 
-cmd = crontab_reverse('192.168.1.1', 6666)
-print(cmd)
-
-cmd = crontab_rm()
-print(cmd)
