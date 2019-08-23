@@ -1,126 +1,244 @@
-# Nmap 7.70 scan initiated Fri Aug 16 16:41:42 2019 as: nmap -sP -vv -o seg.log 4.4.*.100-101
-Nmap scan report for 4.4.0.100 [host down, received no-response]
-Nmap scan report for 4.4.0.101 [host down, received no-response]
-Nmap scan report for 4.4.1.100 [host down, received no-response]
-Nmap scan report for 4.4.1.101 [host down, received no-response]
-Nmap scan report for 4.4.2.100 [host down, received no-response]
-Nmap scan report for 4.4.2.101 [host down, received no-response]
-Nmap scan report for 4.4.3.100 [host down, received no-response]
-Nmap scan report for 4.4.3.101 [host down, received no-response]
-Nmap scan report for 4.4.4.100 [host down, received no-response]
-Nmap scan report for 4.4.4.101 [host down, received no-response]
-Nmap scan report for 4.4.5.100 [host down, received no-response]
-Nmap scan report for 4.4.5.101 [host down, received no-response]
-Nmap scan report for 4.4.6.100 [host down, received no-response]
-Nmap scan report for 4.4.6.101 [host down, received no-response]
-Nmap scan report for 4.4.7.100 [host down, received no-response]
-Nmap scan report for 4.4.7.101 [host down, received no-response]
-Nmap scan report for 4.4.8.100 [host down, received no-response]
-Nmap scan report for 4.4.8.101 [host down, received no-response]
-Nmap scan report for 4.4.9.100 [host down, received no-response]
-Nmap scan report for 4.4.9.101 [host down, received no-response]
-Nmap scan report for 4.4.10.100 [host down, received no-response]
-Nmap scan report for 4.4.10.101 [host down, received no-response]
-Nmap scan report for 4.4.11.100 [host down, received no-response]
-Nmap scan report for 4.4.11.101 [host down, received no-response]
-Nmap scan report for 4.4.12.100 [host down, received no-response]
-Nmap scan report for 4.4.12.101 [host down, received no-response]
-Nmap scan report for 4.4.13.100 [host down, received no-response]
-Nmap scan report for 4.4.13.101 [host down, received no-response]
-Nmap scan report for 4.4.14.100 [host down, received no-response]
-Nmap scan report for 4.4.14.101 [host down, received no-response]
-Nmap scan report for 4.4.15.100 [host down, received no-response]
-Nmap scan report for 4.4.15.101 [host down, received no-response]
-Nmap scan report for 4.4.16.100 [host down, received no-response]
-Nmap scan report for 4.4.16.101 [host down, received no-response]
-Nmap scan report for 4.4.17.100 [host down, received no-response]
-Nmap scan report for 4.4.17.101 [host down, received no-response]
-Nmap scan report for 4.4.18.100 [host down, received no-response]
-Nmap scan report for 4.4.18.101 [host down, received no-response]
-Nmap scan report for 4.4.19.100 [host down, received no-response]
-Nmap scan report for 4.4.19.101 [host down, received no-response]
-Nmap scan report for 4.4.20.100 [host down, received no-response]
-Nmap scan report for 4.4.20.101 [host down, received no-response]
-Nmap scan report for 4.4.21.100 [host down, received no-response]
-Nmap scan report for 4.4.21.101 [host down, received no-response]
-Nmap scan report for 4.4.22.100 [host down, received no-response]
-Nmap scan report for 4.4.22.101 [host down, received no-response]
-Nmap scan report for 4.4.23.100 [host down, received no-response]
-Nmap scan report for 4.4.23.101 [host down, received no-response]
-Nmap scan report for 4.4.24.100 [host down, received no-response]
-Nmap scan report for 4.4.24.101 [host down, received no-response]
-Nmap scan report for 4.4.25.100 [host down, received no-response]
-Nmap scan report for 4.4.25.101 [host down, received no-response]
-Nmap scan report for 4.4.26.100 [host down, received no-response]
-Nmap scan report for 4.4.26.101 [host down, received no-response]
-Nmap scan report for 4.4.27.100 [host down, received no-response]
-Nmap scan report for 4.4.27.101 [host down, received no-response]
-Nmap scan report for 4.4.28.100 [host down, received no-response]
-Nmap scan report for 4.4.28.101 [host down, received no-response]
-Nmap scan report for 4.4.29.100 [host down, received no-response]
-Nmap scan report for 4.4.29.101 [host down, received no-response]
-Nmap scan report for 4.4.30.100 [host down, received no-response]
-Nmap scan report for 4.4.30.101 [host down, received no-response]
-Nmap scan report for 4.4.31.100 [host down, received no-response]
-Nmap scan report for 4.4.31.101 [host down, received no-response]
-Nmap scan report for 4.4.32.100 [host down, received no-response]
-Nmap scan report for 4.4.32.101 [host down, received no-response]
-Nmap scan report for 4.4.33.100 [host down, received no-response]
-Nmap scan report for 4.4.33.101 [host down, received no-response]
-Nmap scan report for 4.4.34.100 [host down, received no-response]
-Nmap scan report for 4.4.34.101 [host down, received no-response]
-Nmap scan report for 4.4.35.100 [host down, received no-response]
-Nmap scan report for 4.4.35.101 [host down, received no-response]
-Nmap scan report for 4.4.36.100 [host down, received no-response]
-Nmap scan report for 4.4.36.101 [host down, received no-response]
-Nmap scan report for 4.4.37.100 [host down, received no-response]
-Nmap scan report for 4.4.37.101 [host down, received no-response]
-Nmap scan report for 4.4.38.100 [host down, received no-response]
-Nmap scan report for 4.4.38.101 [host down, received no-response]
-Nmap scan report for 4.4.39.100 [host down, received no-response]
-Nmap scan report for 4.4.39.101 [host down, received no-response]
-Nmap scan report for 4.4.40.100 [host down, received no-response]
-Nmap scan report for 4.4.40.101 [host down, received no-response]
-Nmap scan report for 4.4.41.100 [host down, received no-response]
-Nmap scan report for 4.4.41.101 [host down, received no-response]
-Nmap scan report for 4.4.42.100 [host down, received no-response]
-Nmap scan report for 4.4.42.101 [host down, received no-response]
-Nmap scan report for 4.4.43.100 [host down, received no-response]
-Nmap scan report for 4.4.43.101 [host down, received no-response]
-Nmap scan report for 4.4.44.100 [host down, received no-response]
-Nmap scan report for 4.4.44.101 [host down, received no-response]
-Nmap scan report for 4.4.45.100 [host down, received no-response]
-Nmap scan report for 4.4.45.101 [host down, received no-response]
-Nmap scan report for 4.4.46.100 [host down, received no-response]
-Nmap scan report for 4.4.46.101 [host down, received no-response]
-Nmap scan report for 4.4.47.100 [host down, received no-response]
-Nmap scan report for 4.4.47.101 [host down, received no-response]
-Nmap scan report for 4.4.48.100 [host down, received no-response]
-Nmap scan report for 4.4.48.101 [host down, received no-response]
-Nmap scan report for 4.4.49.100 [host down, received no-response]
-Nmap scan report for 4.4.49.101 [host down, received no-response]
-Nmap scan report for 4.4.50.100 [host down, received no-response]
-Nmap scan report for 4.4.50.101 [host down, received no-response]
-Nmap scan report for 4.4.51.100 [host down, received no-response]
-Nmap scan report for 4.4.51.101 [host down, received no-response]
-Nmap scan report for 4.4.52.100 [host down, received no-response]
-Nmap scan report for 4.4.52.101 [host down, received no-response]
-Nmap scan report for 4.4.53.100 [host down, received no-response]
-Nmap scan report for 4.4.53.101 [host down, received no-response]
-Nmap scan report for 4.4.54.100 [host down, received no-response]
-Nmap scan report for 4.4.54.101 [host down, received no-response]
-Nmap scan report for 4.4.55.100 [host down, received no-response]
-Nmap scan report for 4.4.55.101 [host down, received no-response]
-Nmap scan report for 4.4.56.100 [host down, received no-response]
-Nmap scan report for 4.4.56.101 [host down, received no-response]
-Nmap scan report for 4.4.57.100 [host down, received no-response]
-Nmap scan report for 4.4.57.101 [host down, received no-response]
-Nmap scan report for 4.4.58.100 [host down, received no-response]
-Nmap scan report for 4.4.58.101 [host down, received no-response]
-Nmap scan report for 4.4.59.100 [host down, received no-response]
-Nmap scan report for 4.4.59.101 [host down, received no-response]
-Nmap scan report for 4.4.60.100 [host down, received no-response]
-Nmap scan report for 4.4.60.101 [host down, received no-response]
+# Nmap 7.80 scan initiated Fri Aug 23 10:09:17 2019 as: nmap -sP -vv -o seg.log 4.4.1-83.100-101
+Nmap scan report for 4.4.1.100
+Host is up, received echo-reply ttl 62 (0.00097s latency).
+Nmap scan report for 4.4.1.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.2.100
+Host is up, received echo-reply ttl 62 (0.0016s latency).
+Nmap scan report for 4.4.2.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.3.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.3.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.4.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.4.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.5.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.5.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.6.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.6.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.7.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.7.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.8.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.8.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.9.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.9.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.10.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.10.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.11.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.11.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.12.100
+Host is up, received echo-reply ttl 62 (0.00094s latency).
+Nmap scan report for 4.4.12.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.13.100
+Host is up, received echo-reply ttl 62 (0.00095s latency).
+Nmap scan report for 4.4.13.101
+Host is up, received echo-reply ttl 62 (0.0017s latency).
+Nmap scan report for 4.4.14.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.14.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.15.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.15.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.16.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.16.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.17.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.17.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.18.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.18.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.19.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.19.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.20.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.20.101
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.21.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.21.101
+Host is up, received echo-reply ttl 62 (0.0016s latency).
+Nmap scan report for 4.4.22.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.22.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.23.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.23.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.24.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.24.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.25.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.25.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.26.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.26.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.27.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.27.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.28.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.28.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.29.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.29.101
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.30.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.30.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.31.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.31.101
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.32.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.32.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.33.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.33.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.34.100
+Host is up, received echo-reply ttl 62 (0.0013s latency).
+Nmap scan report for 4.4.34.101
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.35.100
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.35.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.36.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.36.101
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.37.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.37.101
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.38.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.38.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.39.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.39.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.40.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.40.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.41.100
+Host is up, received echo-reply ttl 62 (0.0016s latency).
+Nmap scan report for 4.4.41.101
+Host is up, received echo-reply ttl 62 (0.0010s latency).
+Nmap scan report for 4.4.42.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.42.101
+Host is up, received echo-reply ttl 62 (0.00097s latency).
+Nmap scan report for 4.4.43.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.43.101
+Host is up, received echo-reply ttl 62 (0.0010s latency).
+Nmap scan report for 4.4.44.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.44.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.45.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.45.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.46.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.46.101
+Host is up, received echo-reply ttl 62 (0.0014s latency).
+Nmap scan report for 4.4.47.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.47.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.48.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.48.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.49.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.49.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.50.100
+Host is up, received echo-reply ttl 62 (0.0016s latency).
+Nmap scan report for 4.4.50.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.51.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.51.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.52.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.52.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.53.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.53.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.54.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.54.101
+Host is up, received echo-reply ttl 62 (0.0012s latency).
+Nmap scan report for 4.4.55.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.55.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.56.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.56.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.57.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.57.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.58.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.58.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.59.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.59.101
+Host is up, received echo-reply ttl 62 (0.0011s latency).
+Nmap scan report for 4.4.60.100
+Host is up, received echo-reply ttl 62 (0.0015s latency).
+Nmap scan report for 4.4.60.101
+Host is up, received echo-reply ttl 62 (0.0010s latency).
 Nmap scan report for 4.4.61.100 [host down, received no-response]
 Nmap scan report for 4.4.61.101 [host down, received no-response]
 Nmap scan report for 4.4.62.100 [host down, received no-response]
@@ -167,349 +285,5 @@ Nmap scan report for 4.4.82.100 [host down, received no-response]
 Nmap scan report for 4.4.82.101 [host down, received no-response]
 Nmap scan report for 4.4.83.100 [host down, received no-response]
 Nmap scan report for 4.4.83.101 [host down, received no-response]
-Nmap scan report for 4.4.84.100 [host down, received no-response]
-Nmap scan report for 4.4.84.101 [host down, received no-response]
-Nmap scan report for 4.4.85.100 [host down, received no-response]
-Nmap scan report for 4.4.85.101 [host down, received no-response]
-Nmap scan report for 4.4.86.100 [host down, received no-response]
-Nmap scan report for 4.4.86.101 [host down, received no-response]
-Nmap scan report for 4.4.87.100 [host down, received no-response]
-Nmap scan report for 4.4.87.101 [host down, received no-response]
-Nmap scan report for 4.4.88.100 [host down, received no-response]
-Nmap scan report for 4.4.88.101 [host down, received no-response]
-Nmap scan report for 4.4.89.100 [host down, received no-response]
-Nmap scan report for 4.4.89.101 [host down, received no-response]
-Nmap scan report for 4.4.90.100 [host down, received no-response]
-Nmap scan report for 4.4.90.101 [host down, received no-response]
-Nmap scan report for 4.4.91.100 [host down, received no-response]
-Nmap scan report for 4.4.91.101 [host down, received no-response]
-Nmap scan report for 4.4.92.100 [host down, received no-response]
-Nmap scan report for 4.4.92.101 [host down, received no-response]
-Nmap scan report for 4.4.93.100 [host down, received no-response]
-Nmap scan report for 4.4.93.101 [host down, received no-response]
-Nmap scan report for 4.4.94.100 [host down, received no-response]
-Nmap scan report for 4.4.94.101 [host down, received no-response]
-Nmap scan report for 4.4.95.100 [host down, received no-response]
-Nmap scan report for 4.4.95.101 [host down, received no-response]
-Nmap scan report for 4.4.96.100 [host down, received no-response]
-Nmap scan report for 4.4.96.101 [host down, received no-response]
-Nmap scan report for 4.4.97.100 [host down, received no-response]
-Nmap scan report for 4.4.97.101 [host down, received no-response]
-Nmap scan report for 4.4.98.100 [host down, received no-response]
-Nmap scan report for 4.4.98.101 [host down, received no-response]
-Nmap scan report for 4.4.99.100 [host down, received no-response]
-Nmap scan report for 4.4.99.101 [host down, received no-response]
-Nmap scan report for 4.4.100.100 [host down, received no-response]
-Nmap scan report for 4.4.100.101 [host down, received no-response]
-Nmap scan report for 4.4.101.100 [host down, received no-response]
-Nmap scan report for 4.4.101.101 [host down, received no-response]
-Nmap scan report for 4.4.102.100 [host down, received no-response]
-Nmap scan report for 4.4.102.101 [host down, received no-response]
-Nmap scan report for 4.4.103.100 [host down, received no-response]
-Nmap scan report for 4.4.103.101 [host down, received no-response]
-Nmap scan report for 4.4.104.100 [host down, received no-response]
-Nmap scan report for 4.4.104.101 [host down, received no-response]
-Nmap scan report for 4.4.105.100 [host down, received no-response]
-Nmap scan report for 4.4.105.101 [host down, received no-response]
-Nmap scan report for 4.4.106.100 [host down, received no-response]
-Nmap scan report for 4.4.106.101 [host down, received no-response]
-Nmap scan report for 4.4.107.100 [host down, received no-response]
-Nmap scan report for 4.4.107.101 [host down, received no-response]
-Nmap scan report for 4.4.108.100 [host down, received no-response]
-Nmap scan report for 4.4.108.101 [host down, received no-response]
-Nmap scan report for 4.4.109.100 [host down, received no-response]
-Nmap scan report for 4.4.109.101 [host down, received no-response]
-Nmap scan report for 4.4.110.100 [host down, received no-response]
-Nmap scan report for 4.4.110.101 [host down, received no-response]
-Nmap scan report for 4.4.111.100 [host down, received no-response]
-Nmap scan report for 4.4.111.101 [host down, received no-response]
-Nmap scan report for 4.4.112.100 [host down, received no-response]
-Nmap scan report for 4.4.112.101 [host down, received no-response]
-Nmap scan report for 4.4.113.100 [host down, received no-response]
-Nmap scan report for 4.4.113.101 [host down, received no-response]
-Nmap scan report for 4.4.114.100 [host down, received no-response]
-Nmap scan report for 4.4.114.101 [host down, received no-response]
-Nmap scan report for 4.4.115.100 [host down, received no-response]
-Nmap scan report for 4.4.115.101 [host down, received no-response]
-Nmap scan report for 4.4.116.100 [host down, received no-response]
-Nmap scan report for 4.4.116.101 [host down, received no-response]
-Nmap scan report for 4.4.117.100 [host down, received no-response]
-Nmap scan report for 4.4.117.101 [host down, received no-response]
-Nmap scan report for 4.4.118.100 [host down, received no-response]
-Nmap scan report for 4.4.118.101 [host down, received no-response]
-Nmap scan report for 4.4.119.100 [host down, received no-response]
-Nmap scan report for 4.4.119.101 [host down, received no-response]
-Nmap scan report for 4.4.120.100 [host down, received no-response]
-Nmap scan report for 4.4.120.101 [host down, received no-response]
-Nmap scan report for 4.4.121.100 [host down, received no-response]
-Nmap scan report for 4.4.121.101 [host down, received no-response]
-Nmap scan report for 4.4.122.100 [host down, received no-response]
-Nmap scan report for 4.4.122.101 [host down, received no-response]
-Nmap scan report for 4.4.123.100 [host down, received no-response]
-Nmap scan report for 4.4.123.101 [host down, received no-response]
-Nmap scan report for 4.4.124.100 [host down, received no-response]
-Nmap scan report for 4.4.124.101 [host down, received no-response]
-Nmap scan report for 4.4.125.100 [host down, received no-response]
-Nmap scan report for 4.4.125.101 [host down, received no-response]
-Nmap scan report for 4.4.126.100 [host down, received no-response]
-Nmap scan report for 4.4.126.101 [host down, received no-response]
-Nmap scan report for 4.4.127.100 [host down, received no-response]
-Nmap scan report for 4.4.127.101 [host down, received no-response]
-Nmap scan report for 4.4.128.100 [host down, received no-response]
-Nmap scan report for 4.4.128.101 [host down, received no-response]
-Nmap scan report for 4.4.129.100 [host down, received no-response]
-Nmap scan report for 4.4.129.101 [host down, received no-response]
-Nmap scan report for 4.4.130.100 [host down, received no-response]
-Nmap scan report for 4.4.130.101 [host down, received no-response]
-Nmap scan report for 4.4.131.100 [host down, received no-response]
-Nmap scan report for 4.4.131.101 [host down, received no-response]
-Nmap scan report for 4.4.132.100 [host down, received no-response]
-Nmap scan report for 4.4.132.101 [host down, received no-response]
-Nmap scan report for 4.4.133.100 [host down, received no-response]
-Nmap scan report for 4.4.133.101 [host down, received no-response]
-Nmap scan report for 4.4.134.100 [host down, received no-response]
-Nmap scan report for 4.4.134.101 [host down, received no-response]
-Nmap scan report for 4.4.135.100 [host down, received no-response]
-Nmap scan report for 4.4.135.101 [host down, received no-response]
-Nmap scan report for 4.4.136.100 [host down, received no-response]
-Nmap scan report for 4.4.136.101 [host down, received no-response]
-Nmap scan report for 4.4.137.100 [host down, received no-response]
-Nmap scan report for 4.4.137.101 [host down, received no-response]
-Nmap scan report for 4.4.138.100 [host down, received no-response]
-Nmap scan report for 4.4.138.101 [host down, received no-response]
-Nmap scan report for 4.4.139.100 [host down, received no-response]
-Nmap scan report for 4.4.139.101 [host down, received no-response]
-Nmap scan report for 4.4.140.100 [host down, received no-response]
-Nmap scan report for 4.4.140.101 [host down, received no-response]
-Nmap scan report for 4.4.141.100 [host down, received no-response]
-Nmap scan report for 4.4.141.101 [host down, received no-response]
-Nmap scan report for 4.4.142.100 [host down, received no-response]
-Nmap scan report for 4.4.142.101 [host down, received no-response]
-Nmap scan report for 4.4.143.100 [host down, received no-response]
-Nmap scan report for 4.4.143.101 [host down, received no-response]
-Nmap scan report for 4.4.144.100 [host down, received no-response]
-Nmap scan report for 4.4.144.101 [host down, received no-response]
-Nmap scan report for 4.4.145.100 [host down, received no-response]
-Nmap scan report for 4.4.145.101 [host down, received no-response]
-Nmap scan report for 4.4.146.100 [host down, received no-response]
-Nmap scan report for 4.4.146.101 [host down, received no-response]
-Nmap scan report for 4.4.147.100 [host down, received no-response]
-Nmap scan report for 4.4.147.101 [host down, received no-response]
-Nmap scan report for 4.4.148.100 [host down, received no-response]
-Nmap scan report for 4.4.148.101 [host down, received no-response]
-Nmap scan report for 4.4.149.100 [host down, received no-response]
-Nmap scan report for 4.4.149.101 [host down, received no-response]
-Nmap scan report for 4.4.150.100 [host down, received no-response]
-Nmap scan report for 4.4.150.101 [host down, received no-response]
-Nmap scan report for 4.4.151.100 [host down, received no-response]
-Nmap scan report for 4.4.151.101 [host down, received no-response]
-Nmap scan report for 4.4.152.100 [host down, received no-response]
-Nmap scan report for 4.4.152.101 [host down, received no-response]
-Nmap scan report for 4.4.153.100 [host down, received no-response]
-Nmap scan report for 4.4.153.101 [host down, received no-response]
-Nmap scan report for 4.4.154.100 [host down, received no-response]
-Nmap scan report for 4.4.154.101 [host down, received no-response]
-Nmap scan report for 4.4.155.100 [host down, received no-response]
-Nmap scan report for 4.4.155.101 [host down, received no-response]
-Nmap scan report for 4.4.156.100 [host down, received no-response]
-Nmap scan report for 4.4.156.101 [host down, received no-response]
-Nmap scan report for 4.4.157.100 [host down, received no-response]
-Nmap scan report for 4.4.157.101 [host down, received no-response]
-Nmap scan report for 4.4.158.100 [host down, received no-response]
-Nmap scan report for 4.4.158.101 [host down, received no-response]
-Nmap scan report for 4.4.159.100 [host down, received no-response]
-Nmap scan report for 4.4.159.101 [host down, received no-response]
-Nmap scan report for 4.4.160.100 [host down, received no-response]
-Nmap scan report for 4.4.160.101 [host down, received no-response]
-Nmap scan report for 4.4.161.100 [host down, received no-response]
-Nmap scan report for 4.4.161.101 [host down, received no-response]
-Nmap scan report for 4.4.162.100 [host down, received no-response]
-Nmap scan report for 4.4.162.101 [host down, received no-response]
-Nmap scan report for 4.4.163.100 [host down, received no-response]
-Nmap scan report for 4.4.163.101 [host down, received no-response]
-Nmap scan report for 4.4.164.100 [host down, received no-response]
-Nmap scan report for 4.4.164.101 [host down, received no-response]
-Nmap scan report for 4.4.165.100 [host down, received no-response]
-Nmap scan report for 4.4.165.101 [host down, received no-response]
-Nmap scan report for 4.4.166.100 [host down, received no-response]
-Nmap scan report for 4.4.166.101 [host down, received no-response]
-Nmap scan report for 4.4.167.100 [host down, received no-response]
-Nmap scan report for 4.4.167.101 [host down, received no-response]
-Nmap scan report for 4.4.168.100 [host down, received no-response]
-Nmap scan report for 4.4.168.101 [host down, received no-response]
-Nmap scan report for 4.4.169.100 [host down, received no-response]
-Nmap scan report for 4.4.169.101 [host down, received no-response]
-Nmap scan report for 4.4.170.100 [host down, received no-response]
-Nmap scan report for 4.4.170.101 [host down, received no-response]
-Nmap scan report for 4.4.171.100 [host down, received no-response]
-Nmap scan report for 4.4.171.101 [host down, received no-response]
-Nmap scan report for 4.4.172.100 [host down, received no-response]
-Nmap scan report for 4.4.172.101 [host down, received no-response]
-Nmap scan report for 4.4.173.100 [host down, received no-response]
-Nmap scan report for 4.4.173.101 [host down, received no-response]
-Nmap scan report for 4.4.174.100 [host down, received no-response]
-Nmap scan report for 4.4.174.101 [host down, received no-response]
-Nmap scan report for 4.4.175.100 [host down, received no-response]
-Nmap scan report for 4.4.175.101 [host down, received no-response]
-Nmap scan report for 4.4.176.100 [host down, received no-response]
-Nmap scan report for 4.4.176.101 [host down, received no-response]
-Nmap scan report for 4.4.177.100 [host down, received no-response]
-Nmap scan report for 4.4.177.101 [host down, received no-response]
-Nmap scan report for 4.4.178.100 [host down, received no-response]
-Nmap scan report for 4.4.178.101 [host down, received no-response]
-Nmap scan report for 4.4.179.100 [host down, received no-response]
-Nmap scan report for 4.4.179.101 [host down, received no-response]
-Nmap scan report for 4.4.180.100 [host down, received no-response]
-Nmap scan report for 4.4.180.101 [host down, received no-response]
-Nmap scan report for 4.4.181.100 [host down, received no-response]
-Nmap scan report for 4.4.181.101 [host down, received no-response]
-Nmap scan report for 4.4.182.100 [host down, received no-response]
-Nmap scan report for 4.4.182.101 [host down, received no-response]
-Nmap scan report for 4.4.183.100 [host down, received no-response]
-Nmap scan report for 4.4.183.101 [host down, received no-response]
-Nmap scan report for 4.4.184.100 [host down, received no-response]
-Nmap scan report for 4.4.184.101 [host down, received no-response]
-Nmap scan report for 4.4.185.100 [host down, received no-response]
-Nmap scan report for 4.4.185.101 [host down, received no-response]
-Nmap scan report for 4.4.186.100 [host down, received no-response]
-Nmap scan report for 4.4.186.101 [host down, received no-response]
-Nmap scan report for 4.4.187.100 [host down, received no-response]
-Nmap scan report for 4.4.187.101 [host down, received no-response]
-Nmap scan report for 4.4.188.100 [host down, received no-response]
-Nmap scan report for 4.4.188.101 [host down, received no-response]
-Nmap scan report for 4.4.189.100 [host down, received no-response]
-Nmap scan report for 4.4.189.101 [host down, received no-response]
-Nmap scan report for 4.4.190.100 [host down, received no-response]
-Nmap scan report for 4.4.190.101 [host down, received no-response]
-Nmap scan report for 4.4.191.100 [host down, received no-response]
-Nmap scan report for 4.4.191.101 [host down, received no-response]
-Nmap scan report for 4.4.192.100 [host down, received no-response]
-Nmap scan report for 4.4.192.101 [host down, received no-response]
-Nmap scan report for 4.4.193.100 [host down, received no-response]
-Nmap scan report for 4.4.193.101 [host down, received no-response]
-Nmap scan report for 4.4.194.100 [host down, received no-response]
-Nmap scan report for 4.4.194.101 [host down, received no-response]
-Nmap scan report for 4.4.195.100 [host down, received no-response]
-Nmap scan report for 4.4.195.101 [host down, received no-response]
-Nmap scan report for 4.4.196.100 [host down, received no-response]
-Nmap scan report for 4.4.196.101 [host down, received no-response]
-Nmap scan report for 4.4.197.100 [host down, received no-response]
-Nmap scan report for 4.4.197.101 [host down, received no-response]
-Nmap scan report for 4.4.198.100 [host down, received no-response]
-Nmap scan report for 4.4.198.101 [host down, received no-response]
-Nmap scan report for 4.4.199.100 [host down, received no-response]
-Nmap scan report for 4.4.199.101 [host down, received no-response]
-Nmap scan report for 4.4.200.100 [host down, received no-response]
-Nmap scan report for 4.4.200.101 [host down, received no-response]
-Nmap scan report for 4.4.201.100 [host down, received no-response]
-Nmap scan report for 4.4.201.101 [host down, received no-response]
-Nmap scan report for 4.4.202.100 [host down, received no-response]
-Nmap scan report for 4.4.202.101 [host down, received no-response]
-Nmap scan report for 4.4.203.100 [host down, received no-response]
-Nmap scan report for 4.4.203.101 [host down, received no-response]
-Nmap scan report for 4.4.204.100 [host down, received no-response]
-Nmap scan report for 4.4.204.101 [host down, received no-response]
-Nmap scan report for 4.4.205.100 [host down, received no-response]
-Nmap scan report for 4.4.205.101 [host down, received no-response]
-Nmap scan report for 4.4.206.100 [host down, received no-response]
-Nmap scan report for 4.4.206.101 [host down, received no-response]
-Nmap scan report for 4.4.207.100 [host down, received no-response]
-Nmap scan report for 4.4.207.101 [host down, received no-response]
-Nmap scan report for 4.4.208.100 [host down, received no-response]
-Nmap scan report for 4.4.208.101 [host down, received no-response]
-Nmap scan report for 4.4.209.100 [host down, received no-response]
-Nmap scan report for 4.4.209.101 [host down, received no-response]
-Nmap scan report for 4.4.210.100 [host down, received no-response]
-Nmap scan report for 4.4.210.101 [host down, received no-response]
-Nmap scan report for 4.4.211.100 [host down, received no-response]
-Nmap scan report for 4.4.211.101 [host down, received no-response]
-Nmap scan report for 4.4.212.100 [host down, received no-response]
-Nmap scan report for 4.4.212.101 [host down, received no-response]
-Nmap scan report for 4.4.213.100 [host down, received no-response]
-Nmap scan report for 4.4.213.101 [host down, received no-response]
-Nmap scan report for 4.4.214.100 [host down, received no-response]
-Nmap scan report for 4.4.214.101 [host down, received no-response]
-Nmap scan report for 4.4.215.100 [host down, received no-response]
-Nmap scan report for 4.4.215.101 [host down, received no-response]
-Nmap scan report for 4.4.216.100 [host down, received no-response]
-Nmap scan report for 4.4.216.101 [host down, received no-response]
-Nmap scan report for 4.4.217.100 [host down, received no-response]
-Nmap scan report for 4.4.217.101 [host down, received no-response]
-Nmap scan report for 4.4.218.100 [host down, received no-response]
-Nmap scan report for 4.4.218.101 [host down, received no-response]
-Nmap scan report for 4.4.219.100 [host down, received no-response]
-Nmap scan report for 4.4.219.101 [host down, received no-response]
-Nmap scan report for 4.4.220.100 [host down, received no-response]
-Nmap scan report for 4.4.220.101 [host down, received no-response]
-Nmap scan report for 4.4.221.100 [host down, received no-response]
-Nmap scan report for 4.4.221.101 [host down, received no-response]
-Nmap scan report for 4.4.222.100 [host down, received no-response]
-Nmap scan report for 4.4.222.101 [host down, received no-response]
-Nmap scan report for 4.4.223.100 [host down, received no-response]
-Nmap scan report for 4.4.223.101 [host down, received no-response]
-Nmap scan report for 4.4.224.100 [host down, received no-response]
-Nmap scan report for 4.4.224.101 [host down, received no-response]
-Nmap scan report for 4.4.225.100 [host down, received no-response]
-Nmap scan report for 4.4.225.101 [host down, received no-response]
-Nmap scan report for 4.4.226.100 [host down, received no-response]
-Nmap scan report for 4.4.226.101 [host down, received no-response]
-Nmap scan report for 4.4.227.100 [host down, received no-response]
-Nmap scan report for 4.4.227.101 [host down, received no-response]
-Nmap scan report for 4.4.228.100 [host down, received no-response]
-Nmap scan report for 4.4.228.101 [host down, received no-response]
-Nmap scan report for 4.4.229.100 [host down, received no-response]
-Nmap scan report for 4.4.229.101 [host down, received no-response]
-Nmap scan report for 4.4.230.100 [host down, received no-response]
-Nmap scan report for 4.4.230.101 [host down, received no-response]
-Nmap scan report for 4.4.231.100 [host down, received no-response]
-Nmap scan report for 4.4.231.101 [host down, received no-response]
-Nmap scan report for 4.4.232.100 [host down, received no-response]
-Nmap scan report for 4.4.232.101 [host down, received no-response]
-Nmap scan report for 4.4.233.100 [host down, received no-response]
-Nmap scan report for 4.4.233.101 [host down, received no-response]
-Nmap scan report for 4.4.234.100 [host down, received no-response]
-Nmap scan report for 4.4.234.101 [host down, received no-response]
-Nmap scan report for 4.4.235.100 [host down, received no-response]
-Nmap scan report for 4.4.235.101 [host down, received no-response]
-Nmap scan report for 4.4.236.100 [host down, received no-response]
-Nmap scan report for 4.4.236.101 [host down, received no-response]
-Nmap scan report for 4.4.237.100 [host down, received no-response]
-Nmap scan report for 4.4.237.101 [host down, received no-response]
-Nmap scan report for 4.4.238.100 [host down, received no-response]
-Nmap scan report for 4.4.238.101 [host down, received no-response]
-Nmap scan report for 4.4.239.100 [host down, received no-response]
-Nmap scan report for 4.4.239.101 [host down, received no-response]
-Nmap scan report for 4.4.240.100 [host down, received no-response]
-Nmap scan report for 4.4.240.101 [host down, received no-response]
-Nmap scan report for 4.4.241.100 [host down, received no-response]
-Nmap scan report for 4.4.241.101 [host down, received no-response]
-Nmap scan report for 4.4.242.100 [host down, received no-response]
-Nmap scan report for 4.4.242.101 [host down, received no-response]
-Nmap scan report for 4.4.243.100 [host down, received no-response]
-Nmap scan report for 4.4.243.101 [host down, received no-response]
-Nmap scan report for 4.4.244.100 [host down, received no-response]
-Nmap scan report for 4.4.244.101 [host down, received no-response]
-Nmap scan report for 4.4.245.100 [host down, received no-response]
-Nmap scan report for 4.4.245.101 [host down, received no-response]
-Nmap scan report for 4.4.246.100 [host down, received no-response]
-Nmap scan report for 4.4.246.101 [host down, received no-response]
-Nmap scan report for 4.4.247.100 [host down, received no-response]
-Nmap scan report for 4.4.247.101 [host down, received no-response]
-Nmap scan report for 4.4.248.100 [host down, received no-response]
-Nmap scan report for 4.4.248.101 [host down, received no-response]
-Nmap scan report for 4.4.249.100 [host down, received no-response]
-Nmap scan report for 4.4.249.101 [host down, received no-response]
-Nmap scan report for 4.4.250.100 [host down, received no-response]
-Nmap scan report for 4.4.250.101 [host down, received no-response]
-Nmap scan report for 4.4.251.100 [host down, received no-response]
-Nmap scan report for 4.4.251.101 [host down, received no-response]
-Nmap scan report for 4.4.252.100 [host down, received no-response]
-Nmap scan report for 4.4.252.101 [host down, received no-response]
-Nmap scan report for 4.4.253.100 [host down, received no-response]
-Nmap scan report for 4.4.253.101 [host down, received no-response]
-Nmap scan report for 4.4.254.100 [host down, received no-response]
-Nmap scan report for 4.4.254.101 [host down, received no-response]
-Nmap scan report for 4.4.255.100 [host down, received no-response]
-Nmap scan report for 4.4.255.101 [host down, received no-response]
 Read data files from: /usr/bin/../share/nmap
-# Nmap done at Fri Aug 16 16:48:32 2019 -- 512 IP addresses (0 hosts up) scanned in 410.57 seconds
+# Nmap done at Fri Aug 23 10:10:25 2019 -- 166 IP addresses (120 hosts up) scanned in 67.65 seconds
