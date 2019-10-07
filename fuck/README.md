@@ -20,6 +20,9 @@
 > del.php
 无限删除目录下文件,并常驻内存
 
+> thinkphp.sh
+针对Thinkphp的脚本
+
 
 ### TODO  
 
